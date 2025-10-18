@@ -13,5 +13,7 @@ UCLASS()
 class GAS_AURA_API UAuraAttributeSet : public UAttributeSet
 {
 	GENERATED_BODY()
-	
+
+public:
+	GAMEPLAYATTRIBUTE_VALUE_GETTER()
 };
